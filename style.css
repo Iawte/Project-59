@@ -1,0 +1,33 @@
+img{
+  height:200px;
+  width:400px    
+}
+body{
+  text-align:center;
+}
+p{
+    margin:25px auto;
+    max-width: 450px;
+    line-height: 1.5;
+    text-align: justify;
+    
+}
+
+.links{
+    float: left;
+    padding: 5px;
+    font-size: 24px;
+}
+#menubar{
+    list-style: none;
+    z-index: 80;
+    top: 10px;
+    right: 30px;
+    position: absolute;
+    cursor: pointer;
+    
+}
+.links:hover{
+background-color: aqua;
+    
+}
